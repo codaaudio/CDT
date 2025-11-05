@@ -7,9 +7,9 @@
  * Utilities and helpers - implementation
  */
 
-#include "CDTUtils.h"
+#include "CDT/CDTUtils.h"
 
-#include "predicates.h" // robust predicates: orient, in-circle
+#include "CDT/predicates.h" // robust predicates: orient, in-circle
 
 #include <stdexcept>
 

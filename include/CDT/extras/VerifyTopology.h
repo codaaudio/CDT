@@ -10,7 +10,7 @@
 #ifndef CDT_Zahj4kpHLwFgkKtcOI1i
 #define CDT_Zahj4kpHLwFgkKtcOI1i
 
-#include <CDT.h>
+#include "CDT/CDT.h"
 
 #include <algorithm>
 

@@ -7,7 +7,7 @@
  * Public API - implementation
  */
 
-#include "CDT.h"
+#include "CDT/CDT.h"
 
 #include <algorithm>
 #include <deque>

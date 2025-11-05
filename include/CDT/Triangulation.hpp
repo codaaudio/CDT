@@ -7,8 +7,8 @@
  * Triangulation class - implementation
  */
 
-#include "Triangulation.h"
-#include "portable_nth_element.hpp"
+#include "CDT/Triangulation.h"
+#include "CDT/portable_nth_element.hpp"
 
 #include <algorithm>
 #include <cassert>
@@ -215,9 +215,8 @@ void Triangulation<T, TNearPointLocator>::finalizeTriangulation(
                 It;
             for(It it = overlapCount.begin(); it != overlapCount.end(); ++it)
             {
-                updatedOverlapCount.insert(
-                    std::make_pair(
-                        RemapNoSuperTriangle(it->first), it->second));
+                updatedOverlapCount.insert(std::make_pair(
+                    RemapNoSuperTriangle(it->first), it->second));
             }
             overlapCount = updatedOverlapCount;
         }

@@ -7,7 +7,7 @@
 #ifndef KDTREE_KDTREE_H
 #define KDTREE_KDTREE_H
 
-#include "CDTUtils.h"
+#include "CDT/CDTUtils.h"
 
 #include <limits>
 

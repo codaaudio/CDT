@@ -10,10 +10,10 @@
 #ifndef CDT_lNrmUayWQaIR5fxnsg9B
 #define CDT_lNrmUayWQaIR5fxnsg9B
 
-#include "CDTUtils.h"
-#include "Triangulation.h"
+#include "CDT/CDTUtils.h"
+#include "CDT/Triangulation.h"
 
-#include "remove_at.hpp"
+#include "CDT/remove_at.hpp"
 
 #include <algorithm>
 #include <cassert>

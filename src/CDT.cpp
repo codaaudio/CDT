@@ -13,11 +13,11 @@
 
 #ifdef CDT_USE_AS_COMPILED_LIBRARY
 
-#include "CDT.hpp"
-#include "CDTUtils.hpp"
-#include "InitializeWithGrid.h"
-#include "Triangulation.hpp"
-#include "VerifyTopology.h"
+#include "CDT/CDT.hpp"
+#include "CDT/CDTUtils.hpp"
+#include "CDT/Triangulation.hpp"
+#include "CDT/extras/InitializeWithGrid.h"
+#include "CDT/extras/VerifyTopology.h"
 
 namespace CDT
 {
@@ -65,15 +65,13 @@ template CDT_EXPORT void initializeWithRegularGrid<double>(
     std::size_t,
     Triangulation<double>&);
 
-template
-CDT_EXPORT float distance(const V2d<float>& a, const V2d<float>& b);
-template
-CDT_EXPORT double distance(const V2d<double>& a, const V2d<double>& b);
+template CDT_EXPORT float distance(const V2d<float>& a, const V2d<float>& b);
+template CDT_EXPORT double distance(const V2d<double>& a, const V2d<double>& b);
 
-template
-CDT_EXPORT float distanceSquared(const V2d<float>& a, const V2d<float>& b);
-template
-CDT_EXPORT double distanceSquared(const V2d<double>& a, const V2d<double>& b);
+template CDT_EXPORT float
+distanceSquared(const V2d<float>& a, const V2d<float>& b);
+template CDT_EXPORT double
+distanceSquared(const V2d<double>& a, const V2d<double>& b);
 
 } // namespace CDT
 

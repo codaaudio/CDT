@@ -10,8 +10,8 @@
 #ifndef CDT_vW1vZ0lO8rS4gY4uI4fB
 #define CDT_vW1vZ0lO8rS4gY4uI4fB
 
-#include "CDTUtils.h"
-#include "LocatorKDTree.h"
+#include "CDT/CDTUtils.h"
+#include "CDT/LocatorKDTree.h"
 
 #include <algorithm>
 #include <cstdlib>
@@ -1154,7 +1154,7 @@ void Triangulation<T, TNearPointLocator>::conformToEdges(
 } // namespace CDT
 
 #ifndef CDT_USE_AS_COMPILED_LIBRARY
-#include "Triangulation.hpp"
+#include "CDT/Triangulation.hpp"
 #endif
 
 #endif // header-guard
