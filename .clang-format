@@ -1,8 +1,8 @@
 # ================================
 # Can be used when needed locally:
 # ================================
- SortIncludes: true
- SortUsingDeclarations: true
+SortIncludes: true
+SortUsingDeclarations: true
 
 AccessModifierOffset: -4
 AlignAfterOpenBracket: AlwaysBreak
@@ -37,14 +37,14 @@ BraceWrapping:
     AfterCaseLabel: true
     AfterClass: true
     AfterControlStatement: true
-    AfterEnum : true
-    AfterFunction : true
-    AfterNamespace : true
-    AfterStruct : true
-    AfterUnion : true
-    BeforeCatch : true
-    BeforeElse : true
-    IndentBraces : false
+    AfterEnum: true
+    AfterFunction: true
+    AfterNamespace: true
+    AfterStruct: true
+    AfterUnion: true
+    BeforeCatch: true
+    BeforeElse: true
+    IndentBraces: false
     SplitEmptyFunction: false
     SplitEmptyRecord: false
     SplitEmptyNamespace: true
