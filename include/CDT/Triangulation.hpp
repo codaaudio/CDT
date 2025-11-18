@@ -7,6 +7,9 @@
  * Triangulation class - implementation
  */
 
+#ifndef CDT_tA8M9dwy9Z3YprCL6hZg
+#define CDT_tA8M9dwy9Z3YprCL6hZg
+
 #include "CDT/Triangulation.h"
 #include "CDT/portable_nth_element.hpp"
 
@@ -2175,3 +2178,5 @@ void Triangulation<T, TNearPointLocator>::tryInitNearestPointLocator()
 }
 
 } // namespace CDT
+
+#endif // header-guard

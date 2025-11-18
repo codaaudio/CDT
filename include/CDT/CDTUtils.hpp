@@ -7,6 +7,9 @@
  * Utilities and helpers - implementation
  */
 
+#ifndef CDT_fZ4S7cdY36dZqsEfGLkB
+#define CDT_fZ4S7cdY36dZqsEfGLkB
+
 #include "CDT/CDTUtils.h"
 
 #include "CDT/predicates.h" // robust predicates: orient, in-circle
@@ -262,3 +265,5 @@ bool touchesSuperTriangle(const Triangle& t)
 }
 
 } // namespace CDT
+
+#endif // header-guard
